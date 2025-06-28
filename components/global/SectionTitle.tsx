@@ -1,4 +1,4 @@
-import { Separator } from "@radix-ui/react-separator";
+import { Separator } from '@/components/ui/separator';
 
 function SectionTitle({ text }: { text: string }) {
   return (
@@ -10,5 +10,4 @@ function SectionTitle({ text }: { text: string }) {
     </div>
   );
 }
-
 export default SectionTitle;
